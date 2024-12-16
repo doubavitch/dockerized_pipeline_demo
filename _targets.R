@@ -28,8 +28,7 @@ list(
   tar_target(
     commune_data,
     clean_unemp(unemp_data,
-                place_name_of_interest = c("Luxembourg", 
-                                           "Dippach",
+                place_name_of_interest = c("Luxembourg",
                                            "Esch/Alzette",
                                            "Mersch", 
                                            "Dudelange"),
